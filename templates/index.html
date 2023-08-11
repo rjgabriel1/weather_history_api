@@ -7,12 +7,19 @@
   </head>
   <body>
     <h1>Weather API History</h1>
-    <p>URL format: http://127.0.0.1:5000/api/v1/station_id/date</p>
+    <p>URL format: http://127.0.0.1:7000/api/v1/station_id/date</p>
+
     <p>
-      URL example:
-      <a href=" http://127.0.0.1:5000/api/v1/10/1998-10-25">
-        http://127.0.0.1:5000/api/v1/10/1998-10-25</a
-      >
+      For one station for all dates: http://127.0.0.1:7000/api/v1/10
     </p>
+
+     <p>
+      Get data per year: http://127.0.0.1:7000/api/v1/annual/10/1998
+    </p>
+
+    <p> {{data | safe}}</p>
+
+
+
   </body>
 </html>
