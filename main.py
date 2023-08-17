@@ -5,7 +5,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-test = {'Title': "Healines", 'content': "Body"}
+
 
 stations = pd.read_csv('./data_small/stations.txt', skiprows=17)
 print(stations)
